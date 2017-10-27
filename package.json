@@ -7,7 +7,7 @@
     "email": "petreboy14@gmail.com"
   },
   "dependencies": {
-    "joi": "7.*.*"
+    "joi": "13.0.1"
   },
   "devDependencies": {
     "express": "3.1.0",

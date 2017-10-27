@@ -34,7 +34,7 @@ describe('express-joi tests', function () {
           email: expressJoi.Joi.string().email()
         }).with('username', 'birthyear').without('password', 'access_token');
       } catch (err) {
-        console.log(err);
+        // console.log(err);
         schemaError = err;
       }
       should.exist(schema);
